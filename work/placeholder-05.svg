@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#121215"/><stop offset="1" stop-color="#0a0a0c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.18" r="0.7">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.06"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1440" height="900" fill="url(#bg)"/>
+  <rect width="1440" height="900" fill="url(#glow)"/>
+  <rect x="0" y="0" width="1440" height="64" fill="#0e0e11"/>
+  <line x1="0" y1="64" x2="1440" y2="64" stroke="#ffffff" stroke-opacity="0.07"/>
+  <circle cx="40" cy="32" r="7" fill="#2c2c31"/><circle cx="66" cy="32" r="7" fill="#2c2c31"/><circle cx="92" cy="32" r="7" fill="#2c2c31"/>
+  <rect x="420" y="18" width="600" height="28" rx="14" fill="#17171b"/>
+  <text x="720" y="37" text-anchor="middle" font-family="Menlo,ui-monospace,monospace" font-size="14" fill="#4a4a52" letter-spacing="2">artemis-client.com</text>
+  <text x="720" y="430" text-anchor="middle" font-family="Menlo,ui-monospace,monospace" font-size="52" fill="#3a3a41">✦</text>
+  <text x="720" y="505" text-anchor="middle" font-family="Menlo,ui-monospace,monospace" font-size="26" fill="#6b6b74" letter-spacing="10">PROJECT 05</text>
+  <text x="720" y="550" text-anchor="middle" font-family="Menlo,ui-monospace,monospace" font-size="17" fill="#45454d" letter-spacing="3">SCREENSHOT COMING SOON</text>
+</svg>

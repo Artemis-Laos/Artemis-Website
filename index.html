@@ -379,6 +379,9 @@
   .cc-hp{position:absolute!important;left:-9999px;width:1px;height:1px;opacity:0;pointer-events:none}
   /* success state: replaces the fields once a message is delivered */
   .cc-done{display:flex;flex-direction:column;align-items:center;text-align:center;gap:10px;padding:26px 8px}
+  /* the [hidden] attribute must beat the display rule above, or the success
+     panel shows before anything is sent */
+  .cc-done[hidden],.cc-dd[hidden]{display:none}
   .cc-done svg{width:42px;height:42px;color:#fff;opacity:.9}
   .cc-done h3{margin:0;font-family:"Inter",var(--body);font-size:21px;font-weight:600;color:#fff}
   .cc-done p{margin:0;font-size:14px;line-height:1.6;color:var(--muted)}
